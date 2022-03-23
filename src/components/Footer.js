@@ -11,10 +11,10 @@ var linkStyle = {
 }
 function Footer() {
     return (
-        <div class="container m-0 p-0">
+        <div class="m-0 p-0" style={{width: '100%'}}>
 
-            <footer class="text-center text-lg-start" style={{backgroundColor: "#3D3B3C", width: "100vw"}}>
-                <div class="container d-flex justify-content-center py-5">
+            <footer class="text-center text-lg-start" style={{backgroundColor: "#3D3B3C"}}>
+                <div class="d-flex justify-content-center py-5">
                 <button type="button" class="btn btn-lg btn-floating mx-2" style={linkStyle.button}>
                     <AiOutlinePhone />
                 </button>
